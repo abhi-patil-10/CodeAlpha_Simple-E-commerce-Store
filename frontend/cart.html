@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Cart — Simple E-com</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand"><a href="index.html">Simple E‑com</a></div>
+    <nav>
+      <a href="cart.html">Cart (<span id="cart-count">0</span>)</a>
+      <a href="login.html" id="login-link">Login</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h1>Your Cart</h1>
+    <div id="cart-items"></div>
+    <div id="cart-summary" class="card"></div>
+  </main>
+
+  <script src="js/api.js"></script>
+  <script src="js/cart.js"></script>
+</body>
+</html>
